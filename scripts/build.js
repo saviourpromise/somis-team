@@ -37,7 +37,7 @@ const html = `<!DOCTYPE html>
   </head>
   <body>
     <iframe
-      src="assets/Somi product list.pdf"
+      src="assets/SOMI STEAM NEW PRICE LIST.pdf"
       title="Somi Product List"
     ></iframe>
   </body>
