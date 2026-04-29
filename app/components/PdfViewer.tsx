@@ -93,7 +93,14 @@ export default function PdfViewer({ file }: PdfViewerProps) {
           overflow: hidden;
           background: white;
           transition: transform 0.2s ease;
+          max-width: 100%;
         }
+
+        .pdf-page canvas {
+          max-width: 100% !important;
+          height: auto !important;
+        }
+
 
         .pdf-page:hover {
           transform: translateY(-4px);
