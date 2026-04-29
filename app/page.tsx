@@ -22,8 +22,9 @@ const PdfViewer = dynamic(() => import("./components/PdfViewer"), {
 export default function Home() {
   return (
     <main style={{ width: "100%", minHeight: "100vh", margin: 0, padding: 0 }}>
-      <PdfViewer file="assets/SOMI STEAM NEW FULL_PRICELIST.pdf" />
+      <PdfViewer file="/assets/SOMI STEAM NEW FULL_PRICELIST.pdf" />
     </main>
+
 
   );
 }

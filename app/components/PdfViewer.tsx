@@ -76,7 +76,10 @@ export default function PdfViewer({ file }: PdfViewerProps) {
           min-height: 100vh;
           width: 100%;
           padding: 2rem 1rem;
+          overflow-x: hidden;
+          box-sizing: border-box;
         }
+
 
 
         .page-wrapper {
